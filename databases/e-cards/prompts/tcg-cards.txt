@@ -1,0 +1,29 @@
+[create] 
+create a table to create a table in postgresql database
+
+
+[context]
+- the first table is a table to save a pokemon tcg cards
+- the second table is a table to save cllections set
+
+connect to tables with foreing key
+
+[informations]
+firts table: tbl_cards
+- hp
+- name
+- type
+- stage
+- info
+- attack
+- damage
+- weak
+- resist
+- retreat
+- cardNumberInCollection
+
+second table: tbl_collections
+- id
+- collectionSetName
+- releaseDate
+- totalCardsInCollection
